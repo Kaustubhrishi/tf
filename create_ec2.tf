@@ -7,7 +7,7 @@ resource "aws_instance" "rhel-8" {
   instance_type = "t2.micro"
   
   tags = {
-    Name = "HelloWorld"
+    Name = "Created through tf"
     Cost_Center = "c1"
   }
   
